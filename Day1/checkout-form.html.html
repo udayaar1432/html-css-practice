@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul {
+        border: 1px solid;
+        line-gap-override: 5px;
+        display: block;
+        float: right;
+
+    }
+
+    .name {
+        display: flex;
+
+    }
+</style>
+
+<body>
+
+    <img src=https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg alt="" width="72" height="72">
+    <h1>Checkout form</h1>
+    <section>Below is an example form built entirely with Bootstrap's form controls. Each required form group has
+        a validation state that can be triggered by attempting to submit the form without completing it. </section>
+    <ul>
+        <li>Product name
+            Brief description
+            $12</li>
+        <li>Second product
+            Brief description
+            $8</li>
+        <li>Third item
+            Brief description
+            $5</li>
+        <li>Promo code
+            EXAMPLECODE
+            -$5</li>
+        <li>Total (USD)
+            $20</li>
+ 
+
+
+    </ul>
+    <form>
+        <h3>Billing address</h3>
+        <div class="name">
+            <label for="firstname">first name</label>
+            <input type="text" placeholder="firstname" id="firstname" required>
+            <label for="lastname">last name</label>
+            <input type="text" placeholder="lastname" id="lastname" required>
+        </div>
+        <label for="Username">Username</label>
+        <span>@</span><input type="text" placeholder="Username" id="Username" required>
+        <label for="email">Email(optional)</label>
+        <input type="email" placeholder="you@example.com" id="email" required>
+        <label for="address">Address</label>
+        <input type="text" placeholder="1234 main st" id="address" required>
+        <label for="address2">Address1(optional)</label>
+        <input type="text" placeholder="1234 main st" id="address2" required>
+        <label for="Choice">Country</label>
+        <select name="Choice" id="Choice">Choice
+            <option>Choice</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <div class="invalid-feedback">Please select the valid state</div>
+        </select>
+        <label for="Choice">State</label>
+        <select name="Choice" id="Choice">Choice
+            <option>Choice</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="AP">AP</option>
+            <div class="invalid-feedback">Please select the valid state</div>
+        </select>
+        <label for="Zip">Zip</label>
+        <input type="text" id="zip">
+        <div>
+            <input type="checkbox" id="check">
+            <label for="check">Shipping address is the same as my billing address</label>
+        </div>
+        <div>
+            <input type="checkbox" id="box">
+            <label for="box">Save this information for next time</label>
+        </div>
+        <h2>Payment</h2>
+        <div>
+            <input type="radio" id="Credit" name="card">
+            <label for="Credit">Credit card</label>
+        </div>
+        <div>
+            <input type="radio" id="Debit" name="card">
+            <label for="Debit">Debit card</label>
+        </div>
+        <div>
+            <input type="radio" id="Pay" name="card">
+            <label for="Pay">Pay Pal</label>
+        </div>
+        <div>
+            <div>
+                <label for="name">Name on card</label>
+                <input type="text" placeholder id="name" required>
+            </div>
+            <div>
+                <label for="num">Credit card number</label>
+                <input type="text" placeholder id="num" required>
+            </div>
+            <div>
+                <label for="exp">Expiration</label>
+                <input type="text" placeholder id="exp" required>
+            </div>
+            <div>
+                <label for="cvv">CVV</label>
+                <input type="text" placeholder id="cvv" required>
+            </div>
+            <div>
+                <button type="submit">Continue to Checkout</button>
+            </div>
+
+        </div>
+
+
+    </form>
+<table>
+    <tr>
+        <th>dshv</th>
+        <th>kdg</th>
+       
+    </tr>
+    <tr>
+        <td>keug</td>
+        <td>akgd</td>
+        
+    </tr>
+    <tr>
+        <td>kugf</td>
+        <td>iuegf</td>
+    </tr>
+</table>
+
+</body>
+
+</html>
