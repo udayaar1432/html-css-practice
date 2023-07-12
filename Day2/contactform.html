@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: lightgray;
+    }
+
+    .container {
+        background-color: aliceblue;
+        width: 350px;
+        border: 200px;
+        padding-left: 10px;
+    }
+
+    .contact {
+        background-color: gray;
+
+    }
+</style>
+
+<body>
+    <form action="/action_page.php">
+        <div class="container">
+            <div class="contact">
+                <h2>contact us</h2>
+                <span>Please fill this in a decent manner</span>
+            </div>
+            <div>
+                <label for="name">Full-Name*</label> <br>
+                <input type="text" name="name" minlength="5" required>
+            </div>
+            <div>
+                <label for="email">E-mail*</label> <br>
+                <input type="email" name="name" required>
+            </div>
+            <div>
+                <label for="message">Message*</label> <br>
+                <textarea name="name" id="" cols="30" rows="10" minlength="5"></textarea>
+            </div>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </div>
+    </form>
+</body>
+
+</html>
