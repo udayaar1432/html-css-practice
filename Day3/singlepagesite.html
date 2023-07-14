@@ -1,21 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
+<style>
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        padding: 10px;
+        background-color: gray;
+        word-spacing: 10px;
+        column-gap: 20px;
+        height: 50px;
+        justify-content: space-between;
+    }
+
+    li:hover {
+        background-color: aliceblue;
+        color: green;
+    }
+
+    .headder {
+        background-image: url(https://th.bing.com/th/id/OIP.Sdlm6zCTm-LE-eDOQ9vkCgHaHa?pid=ImgDet&w=183&h=183&c=7&dpr=1.8);
+        background-size: 100% 100%;
+        height: 400px;
+        padding-left: 40px;
+    }
+
+    h1 {
+        font-size: 70px;
+        color: white;
+    }
+
+    span {
+        font-size: 20px;
+        border: 1px solid;
+        padding: 10px;
+        text-decoration: none;
+        background-color: aliceblue;
+        margin-top: 40px;
+
+    }
+
+    #pa {
+        font-size: 30px;
+        color: whitesmoke;
+        margin-top: 40px;
+    }
+
+    .logo {
+        margin-top: 50px;
+        color: aliceblue;
+    }
+
+    .about {
+        display: flex;
+        text-align: center;
+    }
+
+    h2,
+    h3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .about2 {
+        margin-top: 60px;
+        background-color: beige;
+        width: 100%;
+        height: 300px;
+        padding: 30px;
+    }
+
+    #img {
+
+        float: right;
+        width: 400px;
+        border-radius: 10px;
+    }
+
+    #a {
+        border: 1px solid;
+        background-color: black;
+        color: aliceblue;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .team {
+        display: flex;
+        background-color: whitesmoke;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    #rose {
+        border: 1px solid;
+        font-size: 30px;
+        color: gold;
+        text-align: center;
+    }
+
+    #num {
+        font-size: 30px;
+
+    }
+
+    .numb {
+        background-color: black;
+        color: aliceblue;
+        display: flex;
+        column-gap: 150px;
+        padding-left: 20px;
+        margin-top: 100px;
+    }
+
+    .our {
+
+        display: inline;
+        padding: 5px;
+    }
+
+    .skil {
+        background-color: lightslategray;
+        margin-top: 30px;
+        height: 300px;
+        padding: 30px;
+    }
+
+    .skills2 {
+        float: right;
+    }
+
+    progress {
+        height: 30px;
+        width: 300px;
+    }
+
+    .price {
+        background-color: rgb(63, 35, 35);
+        height: 800px;
+        color: aliceblue;
+
+
+    }
+
+    .price2 {
+        display: flex;
+        column-gap: 200px;
+
+        text-align: center;
+        /* padding:128px 16px; */
+    }
+
+    ol {
+        border: 2px solid;
+        height: 200px;
+        list-style-type: none;
+    }
+
+    #bl {
+        background-color: black;
+    }
+
+    #orange {
+        background-color: orangered;
+    }
+
+    .price3 {
+        font-size: 20px;
+    }
+
+    .formpage {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .footer {
+        background-color: black;
+        color: aliceblue;
+        padding: 65px;
+        text-align: center;
+        margin-top: 50px;
+
+    }
+
+    .top {
+        text-decoration: none;
+        border: 1px solid;
+        background-color: aliceblue;
+        width: 100px;
+
+
+    }
+</style>
+
 <body>
     <div>
         <ul>
-            <li><a href="#">LOGO</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">TEAM</a></li>
-            <li><a href="#">WORK</a></li>
-            <li><a href="#">PRICING</a></li>
-            <li><a href="#">CONTACT</a></li>            
-        </ul>
-        
+            <li></i><a href="#">LOGO</a></li>
+            <!-- <div class="logo"> -->
+            <li><a href="#ABOUT">ABOUT</a></li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                </svg><a href="#TEAM">TEAM</a></li>
+            <li><a href="#WORK">WORK</a></li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                    <path
+                        d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
+                </svg><a href="#PRICING">PRICING</a></li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                </svg><a href="#CONTACT">CONTACT</a></li>
     </div>
+    </ul>
+    </div>
+    <div class="headder">
+        <h1>Start something that matters</h1>
+        <p id="pa">Stop wasting valuable time with projects that just isn't you.</p>
+        <span><a href="#">Learn more and Start today </a></span>
+        <div class="logo">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+    </div>
+    <section id="ABOUT">
+        <h2>ABOUT THE COMPANY</h2>
+        <h3> Key features of our company</h3>
+        <div class="about">
+            <div>
+                <i style="font-size: 50px;" class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+                <h5>Responsive</h5>
+                <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore.</article>
+            </div>
+            <div>
+                <i style="font-size: 50px;" class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+                <h5>Passion</h5>
+                <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore.</article>
+            </div>
+            <div>
+                <i style="font-size: 50px;" class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+                <h5>Design</h5>
+                <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore.</article>
+            </div>
+            <div>
+                <i style="font-size: 50px;" class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+                <h5>Support</h5>
+                <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore.</article>
+            </div>
+        </div>
+        <div class="about2">
+            <img id="img" src="https://www.w3schools.com/w3images/phone_buildings.jpg" alt="ourwork">
+            <h5>We know design.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore.</p>
+            <a id="a" href="#">View our works</a>
+
+        </div>
+        </div>
+        </div>
+    </section>
+    <section id="TEAM">
+        <h2>THE TEAM</h2>
+        <h3>The ones who runs this company</h3>
+        <div class="team">
+            <div>
+                <img src="https://www.w3schools.com/w3images/team2.jpg" alt="john" width="200px">
+                <h6>CEO & Founder</h6>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <a id="rose" href="#"><i class="fa fa-envelope"></i>CONTACT</a>
+            </div>
+            <div>
+                <img src="https://www.w3schools.com/w3images/team1.jpg" alt="rose" width="200px">
+                <h6>Art Director</h6>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <a id="rose" href="#"><i class="fa fa-envelope"></i>CONTACT</a>
+            </div>
+            <div>
+                <img src="https://www.w3schools.com/w3images/team3.jpg" alt="ross" width="200px">
+                <h6>Web Designer</h6>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <a id="rose" href="#"><i class="fa fa-envelope"></i>CONTACT</a>
+            </div>
+            <div>
+                <img src="https://www.w3schools.com/w3images/team4.jpg" alt="dan" width="200px">
+                <h6>Designer</h6>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+                <a id="rose" href="#"><i class="fa fa-envelope"></i>CONTACT</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="numb">
+        <div>
+            <p id="num">14+</p>
+            <p>Partners</p>
+        </div>
+        <div>
+            <p id="num">55+</p>
+            <p>Projects Done</p>
+        </div>
+        <div>
+            <p id="num">89+</p>
+            <p>Happy Clients</p>
+        </div>
+        <div>
+            <p id="num">150+</p>
+            <p>Meetings</p>
+        </div>
+    </section>
+    <section id="WORK">
+        <h2>OUR WORK</h2>
+        <h3>What we've done for people</h3>
+        <div class="our">
+            <img src="https://www.w3schools.com/w3images/tech_mic.jpg" alt="mic">
+            <img src="https://www.w3schools.com/w3images/tech_phone.jpg" alt="iphone">
+            <img src="https://www.w3schools.com/w3images/tech_drone.jpg" alt="drone">
+            <img src="https://www.w3schools.com/w3images/tech_sound.jpg" alt="speaker">
+            <img src="https://www.w3schools.com/w3images/tech_tablet.jpg" alt="tab">
+            <img src="https://www.w3schools.com/w3images/tech_camera.jpg" alt="camera">
+            <img src="https://www.w3schools.com/w3images/tech_typewriter.jpg" alt="typer">
+            <img src="https://www.w3schools.com/w3images/tech_tableturner.jpg" alt="radio">
+        </div>
+    </section>
+    <section class="skil">
+        <h3>Our Skills</h3>
+        <div class="skills2">
+            <div>
+                <label><i class="fa fa-camera w3-margin-right" for="nin"></i>Photography</label> <br>
+                <progress id="nin" max="100" value="90">90%</progress>
+            </div>
+            <div>
+                <label><i class="fa fa-desktop w3-margin-right"></i>Web Design</label> <br>
+                <progress id="nin" max="100" value="85">85</progress>
+            </div>
+            <div>
+                <label><i class="fa fa-photo w3-margin-right"></i>Photoshop</label> <br>
+                <progress id="nin" max="100" value="75">75</progress>
+            </div>
+        </div>
+        <div class="our">
+            <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi expedit aipsum rerum recusandae
+                itaque! Facere quibusdam id quaerat. Consequuntur, veritatis!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, facere qui. Repudiandae voluptatem
+                expedita iste officia, et laudantium.</article>
+        </div>
+    </section>
+    <section id="PRICING" class="price">
+        <h2>PRICING</h2>
+        <h3>Choose a pricing plan that fits your needs.</h3>
+        <div class="price2">
+            <div class="price3">
+                <ol>
+                    <li id="bl">Basic</li>
+                    <li>10GB Storage</li>
+                    <li>10 Emails</li>
+                    <li>10 Domains</li>
+                    <li>Endless Support</li>
+                    <li>$ 10per month</li>
+                    <li><button type="submit">signup</button></li>
+                </ol>
+            </div>
+            <div class="price3">
+                <ol>
+                    <li id="orange">Pro</li>
+                    <li>25GB Storage</li>
+                    <li>25 Emails</li>
+                    <li>25 Domains</li>
+                    <li>Endless Support</li>
+                    <li>$ 25per month</li>
+                    <li><button type="submit">signup</button></li>
+                </ol>
+            </div>
+            <div class="price3">
+                <ol>
+                    <li id="bl">Premium</li>
+                    <li>50GB Storage</li>
+                    <li>50 Emails</li>
+                    <li>50 Domains</li>
+                    <li>Endless Support</li>
+                    <li>$ 50per month</li>
+                    <li><button type="submit">signup</button></li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+    <section id="CONTACT">
+        <h2>CONTACT</h2>
+        <h3>Lets get in touch. Send us a message:</h3>
+        <div>
+            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Banglore,INDIA</p>
+            <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+        </div>
+        <div class="formpage">
+            <form action="action.php">
+                <input type="text" placeholder="Name" required> <br>
+                <input type="email" placeholder="Email" required> <br>
+                <input type="text" placeholder="Subject" required> <br>
+                <input type="text" placeholder="Message" required> <br>
+        </div>
+        <div>
+            <button type="submit"><i class="fa fa-paper-plane"></i>Send message</button>
+        </div>
+        </form>
+        <div class="image" style="margin-top: 50px;">
+            <img src="https://www.w3schools.com/w3images/map.jpg" alt="city">
+        </div>
+    </section>
+    <section class="footer">
+        <div class="top">
+            <a href="#"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        </div>
+        <div class="flogo">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+    </section>
 </body>
+
 </html>
