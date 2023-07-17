@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<style>
+    img {
+        display: inline;
+        height: 20px;
+    }
+
+    .bill,
+    .Payment {
+        display: inline-block;
+
+    }
+</style>
+
+<body>
+    <h2>Responsive Checkout Form</h2>
+    <div class="container">
+        <form action="">
+            <div class="bill">
+                <h2>Billing Address</h2>
+                
+
+                <label for="name"><i class="bi bi-person-circle"></i>Full name</label>
+                <input type="text" placeholder="udaya"  id="name" name="name">
+                
+                
+                <label for="email"><i class="bi bi-envelope-fill"></i>Email</label>
+                <input type="email" placeholder="jhsdva@.com" id="email" name="email">
+                
+                
+                <label for="add"><i class="bi bi-person-vcard"></i>Address</label>
+                <input type="text" placeholder="rajajinagara" id="add" name="address">
+                
+                <label for="city"><i class="bi bi-bank"></i>City</label>
+                <input type="text" placeholder="banglore" id="city" name="city">
+                <label for="state">State</label>
+                <input type="text" placeholder="Karnatake" id="state" name="state">
+                <label for="zip">Zip</label>
+                <input type="text" placeholder="123" id="zip" zip="zi[]">
+            </div>
+            <div class="Payment">
+                <h2>Payment</h2>
+                <div>
+                    <p>Accepted cards</p>
+                    <img src="https://th.bing.com/th/id/OIP.cBUkDQH0FqhsYIUoxGVYXQHaEK?w=312&h=180&c=7&r=0&o=5&dpr=1.8&pid=1.7"
+                        alt="visa">
+                    <img src="https://th.bing.com/th/id/OIP.zw6eGWd7RWZpbvDbmxzHjQHaEu?w=260&h=180&c=7&r=0&o=5&dpr=1.8&pid=1.7"
+                        alt="mastercard">
+                    <img src="https://th.bing.com/th/id/OIP.Vf3kFJighOWRRhGALQmJMwHaFB?w=272&h=184&c=7&r=0&o=5&dpr=1.8&pid=1.7"
+                        alt="american express">
+                </div>
+                <label for="name">Name on card</label>
+                <input type="text" placeholder="udaya" id="name" name="name on card">
+                <label for="num">Credit card number</label>
+                <input type="number" placeholder="1111-2222-3333-4444" id="num" name="cradit card number">
+                <label for="month">Exp month</label>
+                <input type="text" placeholder="august" id="month" name="exp month">
+                <label for="year">Exp Year</label>
+                <input type="text" placeholder="2025" id="year" name="expyear">
+                <label for="cvv">CVV</label>
+                <input type="text" placeholder="256" id="cvv" name="cvv">
+
+            </div>
+            <input type="checkbox" id="Remember" checked>
+            <label for="Remember">Shopping address same as bill</label>
+            <button type="submit">Continue to cheeckout</button>
+        </form>
+    </div>
+</body>
+
+</html>
