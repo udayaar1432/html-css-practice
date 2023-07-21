@@ -1,0 +1,8 @@
+.bgimage{
+    background-image: url("../images/bgistory1.jpg");
+    background-image: url();
+}
+table,td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
