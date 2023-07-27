@@ -21,7 +21,7 @@
 }
 
 #line {
-    border-left: 6px solid rgb(223, 229, 223);
+    border-left: 2px solid rgb(223, 229, 223);
     height: 50px;
     position: absolute;
     left: 50%;
