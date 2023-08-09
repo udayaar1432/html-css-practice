@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(images/bcgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: min-content;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    margin: 10px;
+    list-style: none;
+}
+
+.menu select {
+    padding: 4px 12px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.dropdown:hover {
+    color: #797979;
+}
+
+.menu button {
+    padding: 4px 12px;
+    margin-left: 10px;
+    border-radius: 3px;
+
+}
+
+.headercontent {
+    text-align: center;
+    line-height: 30px;
+    margin: 50px 0;
+    color: aliceblue;
+}
+
+.headercontent h1 {
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.button {
+    padding: 13px 50px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    background-color: #ffffff;
+    font-size: 13px;
+    margin: 10px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    border: none;
+}
+
+.reset {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #ffffee;
+}
+
+.reset:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.content {
+    background-color: #ffe;
+    box-shadow: inset;
+    margin: 0 50px;
+    border-radius: 5px;
+}
+
+.content h1 {
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 60px;
+    border-bottom: 2px solid gray;
+    margin-top: 50px;
+}
+
+.content p {
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.content img {
+    margin-bottom: 0px;
+    height: 300px;
+    margin-top: 40px;
+    border-radius: 0 0px 5px 5px;
+}
+
+.icons {
+    padding: 10px;
+    display: flex;
+    background-color: #ffe;
+    box-shadow: inset;
+    margin: 10px 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.icons p,
+.images p {
+    width: 400px;
+    line-height: 25px;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #808080;
+}
+
+.icons h2,
+.images h2 {
+    color: #797979;
+}
+
+.icons i {
+    font-size: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.lightning {
+    margin-top: 30px;
+    padding: 20px;
+    border-bottom: 3px solid gray;
+}
+
+.lightning i {
+    background-color: #e89980;
+}
+
+.graph {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.graph i {
+    background-color: #7fcdb8;
+}
+
+hr {
+    border: 1.5px solid gray;
+}
+
+.fill {
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-right: 30px;
+    border-top: 3px solid gray;
+}
+
+.fill i {
+    background-color: #e5cb95;
+}
+
+.cloudy {
+    margin-top: 5px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.cloudy i {
+    background-color: #90b0ba;
+}
+
+.images {
+    display: flex;
+    margin: 10px 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.images h2 {
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.images button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: #797979;
+    margin: 30px 0px;
+    text-transform: capitalize;
+}
+
+.images img {
+    width: 430px;
+    height: 200px;
+}
+
+#imgleft {
+    margin-right: 43px;
+    margin-bottom: 30px;
+    border-radius: 5px 5px 0 0px;
+}
+
+#imgright {
+    margin-bottom: 30px;
+    border-radius: 5px 5px 0 0px;
+}
+
+.signup {
+    background-color: #e89980;
+    text-align: center;
+    padding: 30px;
+    color: #f8e1d9;
+}
+
+.signup h1 {
+    font-weight: 100;
+    font-size: xx-large;
+}
+
+.signup p {
+    margin: 40px;
+    font-size: small;
+}
+
+#mail {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #eba893;
+    border-radius: 5px;
+    background-color: #eba893;
+    color: #ffffee;
+    margin-right: 15px;
+}
+
+#sign {
+    border: 1px solid #eba893;
+    background-color: #ffffff;
+    color: #e89981;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    margin: 40px;
+    padding: 30px;
+    line-height: 30px;
+}
+
+.footericons a {
+    color: #797979;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.footericons a:hover {
+    color: #a29f9f;
+}
+
+.footer p,
+a {
+    color: #797979;
+    font-size: small;
+    text-decoration: none;
+}
