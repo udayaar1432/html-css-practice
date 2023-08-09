@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.menum {
+  position: fixed;
+  top: 0px;
+  left: 2px;
+}
+.menu {
+  width: 236px;
+  height: 700px;
+  /* margin-top: 150px; */
+  text-align: right;
+  font-size: 20px;
+  background-color: #312450;
+}
+.menu ul {
+  list-style-type: none;
+}
+.menu li {
+  border: 1px solid;
+  margin-bottom: 20px;
+}
+.main {
+  margin-left: 230px;
+  background-color: #6348a9;
+}
+.heading {
+  padding: 60px 40px 60px 30px;
+}
+.heading > h1 {
+  font-weight: 600;
+  font-size: 40px;
+  color: beige;
+}
+.heading > p {
+  width: 550px;
+  margin-left: 40px;
+  font-size: 18px;
+  line-height: 30px;
+  color: aliceblue;
+}
+.heading > a {
+  text-decoration: underline dotted whitesmoke;
+}
+#learn {
+  border: 1px solid;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-left: 40px;
+  color: whitesmoke;
+  width: 50px;
+}
+#learn:hover {
+  background-color: rgb(151, 170, 187);
+}
+#learnmore:hover {
+  background-color: rgb(151, 170, 187);
+}
+.content {
+  display: flex;
+  background-color: #5052b5;
+}
+.content p,
+h1 {
+  padding: 0px 30px 0px 40px;
+}
+.content p {
+  line-height: 30px;
+  font-size: mediums;
+  margin-bottom: 80px;
+  width: 500px;
+}
+.content h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+#learnmore {
+  border: 1px solid;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin: 80px 0px 0px 40px;
+  color: beige;
+}
+.inner {
+  /* border: 1px solid; */
+  margin: 50px 40px 50px 40px;
+}
+.inner h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: -10px;
+}
+.inner > p {
+  /* border: 1px solid; */
+  width: 650px;
+  margin-left: 32px;
+  line-height: 20px;
+  font-size: 15px;
+}
+.icons {
+  display: flex;
+  margin: 20px 30px 0px 30px;
+  border: 1px solid;
+  padding: 10px;
+}
+.icons i {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 50%;
+  margin: 20px;
+  background-color: antiquewhite;
+}
+
+.icons p {
+  /* border: 1px solid; */
+  width: 230px;
+  line-height: 25px;
+  margin-left: 78px;
+}
+.icons > a {
+  margin: 100px;
+}
+form {
+  margin-left: 70px;
+  /* border: 1px solid; */
+  width: 400px;
+}
+.right {
+  /* border: 1px solid; */
+  width: 250px;
+  float: right;
+  margin-right: 60px;
+}

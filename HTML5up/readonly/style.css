@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, sans-serif;
+}
+.menubar {
+  display: inline-block;
+  border: 1px solid;
+  width: 22%;
+  position: fixed;
+  top: 0;
+  right: 0px;
+  height: 800px;
+  z-index: 1;
+  background-color: #4acaa8;
+  padding: 10px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: azure;
+}
+header p {
+  padding: 0 10px;
+  text-align: center;
+}
+.image {
+  margin-top: 30px;
+  max-width: 100px;
+  border-radius: 50%;
+}
+.navbar {
+  line-height: 2;
+  text-transform: capitalize;
+  font-size: 16px;
+  
+  padding: 10px;
+}
+.list-item {
+  text-align: center;
+  border-bottom: 1px solid;
+  width: 100%;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: #88889b;
+}
+.footer {
+  padding: 10px;
+  flex-direction: row;
+  font-size: 30px;
+  gap: 30px;
+}
+li {
+  list-style-type: none;
+  
+
+}
+.container {
+  width: 78%;
+  border: 1px solid;
+}
+.container h1 {
+  font-size: 30px;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+.read-content,.things-content,.few-content ,.footer,.copy,table{
+  border: 1px solid;
+  padding: 5% 10%;
+}
+.read-content h1{
+  font-size: 50px;
+  font-weight: 600;
+  color: #4acaa8;
+}
+.read-content h4,.things-content h1,.few-content h1,.images-content h3,.footer h1 {
+  font-size: 25px;
+  width: 500px;
+  color: #777777;
+}
+.read-content p, .things-content p, .few-content p , .footer p{
+  color: #88889b;
+  font-weight: 500;
+  font-size: 18px;
+}
+.icons{
+  display: inline-block;
+  width: 700px;
+  padding-right: 30px;
+  text-align: center;
+}
+.icons i{
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #4acaa8;
+  color: aliceblue;
+  margin-right: 20px; 
+}
+.icons {
+  margin: 20px;
+}
+table ,td,tr{ 
+  border: 1px solid;
+  padding: 20px;
+}
+.images-content{
+    width: 440px;
+    padding: 10px;
+    line-height: 30px;
+}
+.images{
+  display: flex;
+  gap: 10px;
+}
+.images img{
+  border-radius: 7px;
+}
+form input {
+  padding: 10px;
+  border-radius: 8px; 
+}
+.input input{
+  display:inline-block;
+  width:45% ;  
+}
+.sub input{
+  width: 91%;
+  margin: 20px 0px;
+}
+textarea{
+  width: 91%;
+  border-radius: 8px;
+}
+.btnsubmit{
+  text-transform: capitalize;
+  background-color: aquamarine;
+  width: 15%;
+}
+.btnsubmit:hover{
+  background-color: aliceblue;
+}
+.btnreset{
+  text-transform: capitalize;
+  width: 15%;
+  background-color: #777777;
+}
+.btnreset:hover{
+  background-color: aliceblue;
+}
+
+
