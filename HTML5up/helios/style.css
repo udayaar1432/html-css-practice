@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.main {
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    text-transform: capitalize;
+    list-style-type: none;
+
+}
+
+.dropdown:hover {
+    overflow: hidden;
+}
+
+.content {
+    text-align: center;
+    color: aliceblue;
+}
+
+.content h2 {
+    font-size: 55px;
+    font-weight: 600;
+    margin: 150px 0 60px 0;
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: 200;
+    margin: 50px;
+}
+
+.content button {
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+button {
+    border: 0px solid;
+    background-color: #df7366;
+    color: #fdf5f4;
+}
+
+button:hover {
+    background-color: #ef8376;
+}
+
+.header {
+    text-align: center;
+}
+
+.header a {
+    color: #483949;
+}
+
+.header h1 {
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: normal;
+}
+
+.header p {
+    font-size: 23px;
+    font-weight: 200;
+    line-height: 30px;
+    margin: 0 30px 50px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header .containerimage h1,
+a:hover {
+    color: #df7366;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+    margin: 15px;
+    background-color: #ffffff;
+
+}
+
+.images img {
+    width: 230px;
+    height: 180px;
+}
+
+.images h3,
+.imagemorbi h3 {
+    font-size: larger;
+    font-weight: 300;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    color: #483949;
+}
+
+.images p,
+.imagemorbi p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    color: #898989;
+}
+
+.containerimage {
+    margin: 30px 25px 0px 25px;
+    text-align: center;
+}
+
+.containerimage h1 {
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+.containerimage h1:hover {
+    color: #df7366;
+}
+
+.containerimage p {
+    /* border: 1px solid; */
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #483949;
+}
+
+.containerimage article {
+    line-height: 25px;
+    font-weight: 300;
+    color: #898989;
+    /* border: 1px solid; */
+    text-align: justify;
+}
+
+.containerimage button {
+    font-size: 15px;
+    font-weight: 200;
+    padding: 15px 40px;
+    border-radius: 6px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    text-transform: capitalize;
+
+}
+
+.morbi h1 {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.morbi p {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 60px;
+
+}
+
+.containermorbi {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.imagemorbi img {
+    height: 200px;
+    width: 300px;
+}
+
+.imagemorbi h3:hover {
+    color: #df7366;
+}
+
+.imagemorbi p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.icons {
+    display: flex;
+    background-color: #483949;
+    text-align: center;
+    padding: 30px;
+}
+
+.icons i {
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #fdf5f4;
+}
+
+.twitter li {
+    list-style: none;
+    padding-bottom: 25px;
+    margin-top: 30px;
+    border-bottom: 1px solid gray;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.twitter span {
+    color: #898989;
+    font-size: small;
+}
+
+.cameraimages {
+    display: flex;
+
+}
+
+.camera img {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+}
+
+.footericons a {
+    color: #483949;
+}
+
+.copy a {
+    color: #483949;
+}
+
+.copy a:hover {
+    color: #df7366;
+}
