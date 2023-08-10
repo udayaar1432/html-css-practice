@@ -13,44 +13,47 @@ body {
     background-image: url(images/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .menu {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    gap: 3rem;
+    padding: 5%;
     text-transform: capitalize;
     list-style-type: none;
-
-}
-
-.dropdown:hover {
-    overflow: hidden;
+    font-weight: 100;
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    gap: 10px;
     color: aliceblue;
 }
 
 .content h2 {
     font-size: 55px;
-    font-weight: 600;
-    margin: 150px 0 60px 0;
+    font-weight: 400;
+    margin: 130px 0 60px 0;
 }
 
 .content p {
     font-size: 20px;
     font-weight: 200;
-    margin: 50px;
+    margin: 0 auto;
+    border-top-style: double;
+    width: fit-content;
+    padding: 50px 0;
 }
 
 .content button {
+    margin: 0 auto;
     border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
     font-size: 20px;
-    padding: 20px;
     margin-bottom: 100px;
 }
 
@@ -73,6 +76,7 @@ button:hover {
 }
 
 .header h1 {
+    margin-top: 80px;
     font-size: 45px;
     font-weight: 500;
     letter-spacing: normal;
@@ -81,7 +85,7 @@ button:hover {
 .header p {
     font-size: 23px;
     font-weight: 200;
-    line-height: 30px;
+    line-height: 40px;
     margin: 0 30px 50px 30px;
 }
 
@@ -97,18 +101,20 @@ a:hover {
 
 .container {
     display: flex;
-    gap: 15px;
-    margin: 15px;
-    background-color: #ffffff;
-
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
 
-.images img {
-    width: 230px;
-    height: 180px;
+.card {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 225px;
+    text-align: center;
+    gap: 10px;
 }
 
-.images h3,
+.card h3,
 .imagemorbi h3 {
     font-size: larger;
     font-weight: 300;
@@ -117,7 +123,7 @@ a:hover {
     color: #483949;
 }
 
-.images p,
+.card p,
 .imagemorbi p {
     font-size: 14px;
     text-align: center;
@@ -133,7 +139,6 @@ a:hover {
 .containerimage h1 {
     font-size: 40px;
     font-weight: 300;
-
 }
 
 .containerimage h1:hover {
@@ -141,7 +146,6 @@ a:hover {
 }
 
 .containerimage p {
-    /* border: 1px solid; */
     font-size: 23px;
     font-weight: 500;
     line-height: 30px;
@@ -152,7 +156,6 @@ a:hover {
     line-height: 25px;
     font-weight: 300;
     color: #898989;
-    /* border: 1px solid; */
     text-align: justify;
 }
 
@@ -164,7 +167,6 @@ a:hover {
     margin-top: 50px;
     margin-bottom: 150px;
     text-transform: capitalize;
-
 }
 
 .morbi h1 {
@@ -178,19 +180,21 @@ a:hover {
     text-align: center;
     font-weight: 300;
     margin-bottom: 60px;
-
 }
 
 .containermorbi {
     display: flex;
-    margin: 20px;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
     justify-content: center;
 }
 
-.imagemorbi img {
-    height: 200px;
-    width: 300px;
+.imagemorbi {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 300px;
+    text-align: center;
+    gap: 20px;
 }
 
 .imagemorbi h3:hover {
@@ -202,32 +206,54 @@ a:hover {
     font-size: 16px;
 }
 
+.mainfooter {
+    background-color: #2b252c;
+}
+
 .icons {
+    color: #fff;
     display: flex;
-    background-color: #483949;
-    text-align: center;
-    padding: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 10%;
+    border-bottom-style: double;
+    border-bottom-width: 3px;
+    padding-bottom: 50px;
 }
 
 .icons i {
+    display: inline;
     font-size: 30px;
     padding: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 30px;
+    width: 20%;
+    margin: 0 auto;
     border-radius: 50%;
+    color: #2b252c;
     background-color: #fdf5f4;
+}
+
+.twitter {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 350px;
+    text-align: center;
+    gap: 20px;
 }
 
 .twitter li {
     list-style: none;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     margin-top: 30px;
     border-bottom: 1px solid gray;
     width: 300px;
     font-size: 15px;
     font-weight: 300;
     line-height: 20px;
+}
+
+.file li {
+    padding-bottom: 20px;
 }
 
 .twitter span {
@@ -237,7 +263,7 @@ a:hover {
 
 .cameraimages {
     display: flex;
-
+    margin-top: 2.5rem;
 }
 
 .camera img {
@@ -246,12 +272,31 @@ a:hover {
     margin: 5px;
 }
 
-.footericons a {
-    color: #483949;
+.footer {
+    color: #fff;
+    margin-top: 12%;
+    text-align: center;
+}
+
+.footer h3 {
+    font-weight: 300;
+}
+
+.footericons {
+    display: inline-flex;
+    gap: 35px;
+    padding: 15px 45px;
+    border-radius: 30px;
+    font-size: 28px;
+    background-color: #302a31;
+}
+
+.copy {
+    color: #6b696b;
 }
 
 .copy a {
-    color: #483949;
+    color: #6b696b;
 }
 
 .copy a:hover {
