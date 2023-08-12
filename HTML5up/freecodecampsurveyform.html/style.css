@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head {
+    background-image: url(image/survey-form-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+header {
+    text-align: center;
+    color: aliceblue;
+    padding: 0 1rem 1rem 1rem;
+    font-family: inherit;
+
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+span {
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.container {
+    line-height: 2rem;
+    padding: 4rem 3rem;
+    margin: 2rem 8rem;
+    border-radius: 5px;
+    background-color: #1b1b32;
+    opacity: 0.9;
+    color: #f3f3f3;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.8rem 0rem;
+}
+
+.main label {
+    text-transform: capitalize;
+}
+
+button {
+    background-color: #37af65;
+    width: 100%;
+    padding: 0.5rem;
+    color: #f3f3f3;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+}
