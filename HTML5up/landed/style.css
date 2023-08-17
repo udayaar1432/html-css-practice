@@ -1,0 +1,265 @@
+.menu {
+    background-image: url(images/pic05r.jpg);
+    background-size: cover;
+    min-height: 450px;
+
+}
+
+.menubar {
+    display: flex;
+    border: 1px solid;
+    list-style-type: none;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(69, 67, 67);
+    text-align: right;
+
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    /* text-align: center; */
+    justify-content: space-between;
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ul,
+li {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.right {
+    background-image: url(images/pic06r.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align: right;
+    border: 1px solid;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ddd;
+
+}
+
+.rightartical {
+
+    width: 300px;
+    padding-left: 600px;
+}
+
+.left {
+    background-image: url(images/pic07.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align: right;
+    border: 1px solid;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ddd;
+}
+
+.image {
+    border-radius: 100%;
+    float: right;
+    padding-right: 70px;
+    padding-top: 30px;
+}
+
+.headertext {
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+#texth {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#textp {
+    font-family: inherit;
+    font-size: 25px;
+}
+
+.paragraphs {
+    display: flex;
+
+    margin-top: 10px;
+    line-height: 20px;
+    word-spacing: 10px;
+    background-color: #333;
+    color: #ddd
+}
+
+.paraone {
+    text-align: center;
+}
+
+.paratwo {
+    width: 400px;
+    padding: 5px;
+}
+
+.icons {
+    background-color: #333;
+    padding: 25px;
+    color: whitesmoke;
+}
+
+.icon {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.icon-center {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#btn {
+    border: 1px solid;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.get {
+    text-align: center;
+    background-color: palevioletred;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 0;
+}
+
+input {
+    width: 180px;
+    height: 30px;
+
+}
+
+button {
+    height: 33px;
+    width: 90px;
+
+}
+
+.icons-footer {
+    text-align: center;
+    background-color: #595656;
+    height: 150px;
+    padding: 20px;
+}
+
+ul,
+li {
+    padding-left: 100px;
+}
+
+.container {
+    background-color: #333;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.header {
+    text-align: center;
+}
+
+.content {
+    line-height: 25px;
+    width: 600px;
+
+}
+
+#list {
+    padding-left: 0px;
+    list-style-type: disc;
+}
+
+.rights {
+    text-align: right;
+
+}
+
+.article-r {
+    width: 300px;
+    padding-left: 650px;
+}
+
+.articlel {
+    width: 400px;
+
+}
+
+.lefts {
+    text-align: right;
+    padding-top: 0px;
+}
+
+.article-l {
+    width: 300px;
+    padding-left: 650px;
+}
+
+#listl {
+    padding-left: 450px;
+}
+
+.headerleft {
+    text-align: center;
+}
